@@ -65,9 +65,9 @@ const App = () => {
           </div>
         ))}
       </div>
-      
+
       {loading && (
-        <h2 className="text-center text-xl font-bold pb-5">
+        <h2 className="text-center text-xl font-semibold pb-5 left-1/2 top-1/2 text-gray-500">
           Loading...
         </h2>
       )}
